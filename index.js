@@ -28,7 +28,7 @@ exports.NodeUtil = require('util');
 exports.YtInfo = new YtInfoObj();
 exports.TrelloHandler = new TrelloObj(Auth.trelloKey, Auth.trelloToken);
 
-exports.linkGuilds = [['417110408088780801', '309785618932563968']];
+exports.linkGuilds = [['544456312436817932', '511234899655786503']];
 
 exports.dbPass = Auth.dbPass;
 exports.dbPassVeil = Auth.dbPassVeil;
@@ -38,8 +38,8 @@ exports.dbPassVeil = Auth.dbPassVeil;
 global.index = module.exports;
 
 global.has = Object.prototype.hasOwnProperty;
-global.selfId = '224529399003742210';
-global.vaebId = '107593015014486016';
+global.selfId = '544456312436817932';
+global.vaebId = '544456312436817932';
 global.botDir = '/home/flipflop8421/files/discordExp/VaeBot'; // '/home/flipflop8421/files/discordExp/VaeBot' 'C:\\Users\\Adam\\Documents\\GitVaeb\\VaeBot'
 
 global.Util = require('./Util.js');
@@ -346,8 +346,8 @@ function setupSecurityVeil() {
 }
 
 const veilGuilds = {
-    '477270527535480834': true,
-    '309785618932563968': true,
+    '544456312436817932': true,
+    '544456312436817932': true,
 };
 
 exports.secure = async function () {
