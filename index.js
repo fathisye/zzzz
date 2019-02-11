@@ -1809,4 +1809,4 @@ client.on('message', (msgObj) => {
 
 Util.log('-CONNECTING-');
 
-client.login(Auth.discordToken);
+client.login(process.env.BOT_TOKEN);
